@@ -15,9 +15,9 @@
 - **Track:** Education & Career Tech
 
 ### 👥 Team Members
-1. **Trimil**
-2. **Vimel**
-3. **Jefin** 
+1. **Trimil Triliver John**
+2. **Vimal Jimmy**
+3. **Jefin Joseph** 
 
 ---
 
