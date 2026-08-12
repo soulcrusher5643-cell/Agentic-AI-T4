@@ -63,11 +63,11 @@ InternX operates as a multi-step autonomous agent that acts on behalf of the stu
 flowchart TD
     Start([User Profile & Goal Input]) --> Plan[Agent Goal Decomposition & Sub-Task Planning]
     
-    subgraph Agentic Execution Loop
-        Plan --> Tool1[Tool 1: External Opportunity Scanner API]
-        Tool1 --> Tool2[Tool 2: Eligibility & Skill Matrix Evaluator]
-        Tool2 --> Tool3[Tool 3: ATS Resume & Cover Letter Drafter]
-        Tool3 --> Tool4[Tool 4: Persistent Memory & State Sync]
+    subgraph Loop["Agentic Execution Loop"]
+        Plan --> Tool1["Tool 1: External Opportunity Scanner API"]
+        Tool1 --> Tool2["Tool 2: Eligibility & Skill Matrix Evaluator"]
+        Tool2 --> Tool3["Tool 3: ATS Resume & Cover Letter Drafter"]
+        Tool3 --> Tool4["Tool 4: Persistent Memory & State Sync"]
     end
     
     Tool4 --> Decision{Any Action Needed?}
@@ -84,22 +84,22 @@ flowchart TD
 
 ```mermaid
 graph LR
-    subgraph Client Layer
-        UI[Interactive Web Application - HTML/CSS/JS]
-        JudgeModal[Judge Reasoning Trace Inspector]
+    subgraph Client["Client Layer"]
+        UI["Interactive Web Application - HTML/CSS/JS"]
+        JudgeModal["Judge Reasoning Trace Inspector"]
     end
 
-    subgraph Agent Core (Google Antigravity Engine)
-        Planner[Agentic Planner & Sub-task Router]
-        MemoryManager[Persistent Memory Manager]
-        ReasoningLog[Trace & Execution Logger]
+    subgraph Core["Agent Core - Google Antigravity Engine"]
+        Planner["Agentic Planner & Sub-task Router"]
+        MemoryManager["Persistent Memory Manager"]
+        ReasoningLog["Trace & Execution Logger"]
     end
 
-    subgraph External Tools & APIs
-        ToolSearch[Tool 1: External Job Scraper API]
-        ToolATS[Tool 2: Compatibility Matrix Evaluator]
-        ToolDraft[Tool 3: Application Asset Drafter]
-        ToolDB[Tool 4: LocalStorage / DB Persister]
+    subgraph Tools["External Tools & APIs"]
+        ToolSearch["Tool 1: External Job Scraper API"]
+        ToolATS["Tool 2: Compatibility Matrix Evaluator"]
+        ToolDraft["Tool 3: Application Asset Drafter"]
+        ToolDB["Tool 4: LocalStorage / DB Persister"]
     end
 
     UI --> Planner
