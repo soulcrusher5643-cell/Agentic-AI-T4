@@ -1,10 +1,10 @@
 # InternX — Autonomous AI-Powered Internship Agent
 
-> **DeltaCCE Agentic AI Product Build Sprint — Checkpoint 2 Submission**
+> **DeltaCCE Agentic AI Product Build Sprint — Official Submission**
 
 ![InternX Banner](https://img.shields.io/badge/Track-Education%20%2F%20Career%20Tech-blueviolet?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Checkpoint%202%20Submitted-success?style=for-the-badge)
-![Agent Framework](https://img.shields.io/badge/Agentic%20AI-Google%20Antigravity%20%2F%20Gemini-00f2fe?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Project%20Submitted-success?style=for-the-badge)
+![Agent Framework](https://img.shields.io/badge/Agentic%20AI-Groq%20LLaMA%203.3-00f2fe?style=for-the-badge)
 
 ---
 
